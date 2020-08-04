@@ -4,20 +4,10 @@ body {
     max-width: 1200px;
     background: -webkit-linear-gradient(to top, #9a8478, #1e130c);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to top, #9a8478, #1e130c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    
-    
-    
-    
-    
-    
-    
     background-size: cover;
     background-repeat: no-repeat;
     /* height: 450vh; */
     min-height: 100%;
-    
-    
 }
 .go-back {
     width: 10px;
@@ -50,49 +40,17 @@ header {
     justify-content: center;
     align-items: center;
 }
-
 .title a {
     text-decoration: none;
     color: #fff;
 }
 .title img {
     width: 150px;
-
-}
-.brand .fas {
-    font-size: 4rem;
-    color: black;
 }
 main {
     width: 90%;
     margin: auto;
     height: 100%;
-}
-.fa-gem {
-    animation: change-color 3s linear infinite;
-}
-
-@keyframes change-color {
-    0% {
-        background: linear-gradient(0deg, rgba(184,202,206,1) 0%, rgba(250,224,218,1) 50%, rgba(240,178,174,1) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    33% {
-        background: linear-gradient(0deg, rgba(184,202,206,1) 0%, rgba(250,224,218,1) 100%, rgba(240,178,174,1) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    66% {
-        background: linear-gradient(0deg, rgba(184,202,206,1) 0%, rgba(250,224,218,1) 50%, rgba(240,178,174,1) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-    100% {
-        background: linear-gradient(0deg, rgba(184,202,206,1) 0%, rgba(250,224,218,1) 0%, rgba(240,178,174,1) 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
 }
 section {
     display: flex;
@@ -148,7 +106,6 @@ section {
     border-radius: 20px;
     width: 340px;
 }
-
 .subjective-photo {
     transition: .3s ease;
 }
@@ -156,7 +113,6 @@ section {
     transition: .5s linear;
     transform: scale(1.2);
 }
-
 @media (max-width: 1100px) {
     .subjective {
         width: 290px;
@@ -195,7 +151,6 @@ section {
     .title img {
         width: 100px;
     }
-
 }
 footer {
     height: 10vw;
@@ -212,7 +167,6 @@ footer {
   }
   svg {
     width: 100%;
-    /* overflow:visible; */
   }
   .drop {
     display: none;
