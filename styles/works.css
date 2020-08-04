@@ -146,10 +146,12 @@ section {
 @media (max-width: 411px) {
     .title {
     font-size: 3rem;
-
     }
+    .title span {
+        font-size: 1.8rem;
+    } 
     .title img {
-        width: 100px;
+        width: 50px;
     }
 }
 footer {
