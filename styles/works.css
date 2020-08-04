@@ -143,12 +143,12 @@ section {
         margin-right: 300px;
     }
 }
-@media (max-width: 411px) {
+@media (max-width: 414px) {
     .title {
     font-size: 3rem;
     }
     .title span {
-        font-size: 1.8rem;
+        font-size: 2.5rem;
     } 
     .title img {
         width: 50px;
